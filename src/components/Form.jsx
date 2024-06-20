@@ -5,7 +5,7 @@ const Form = () => {
   return (
     <div className="contact-form-container">
       <div className="image-container">
-        <img src="/images/form-image.jpg" alt="Form" />
+        <img src="src\assets\Rectangle 1944.png" alt="Form" />
       </div>
       <div className="form-container">
         <h1>let’s have a conversation <span className="highlight">today!</span></h1>
@@ -23,7 +23,7 @@ const Form = () => {
             <label htmlFor="message">message</label>
             <textarea id="message" name="message"></textarea>
           </div>
-          <button type="submit">Submit</button>
+          <button id='submit' type="submit">Submit</button>
         </form>
       </div>
     </div>

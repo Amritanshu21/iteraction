@@ -57,6 +57,7 @@ background-color: #151515;
   text-align: center;
   margin: 0;
   overflow-x: hidden;
+  overflow-y: hidden;
   padding: 0;
   background-color: #151515;
 }
@@ -195,7 +196,7 @@ padding-bottom: 80px;
   position: absolute;
   top: 325px;
   background-color: white;
-  left: 140px;
+  left: 145px;
 }
 .text-content p{
   color: white;
@@ -281,8 +282,8 @@ justify-content: center;
 }
 .under{
   position: absolute;
-  top: 1050px;
-  left: 100px;
+  top: 1040px;
+  left: 70px;
   background-color: white;
   height: 2px;
   width: 500px;
@@ -727,21 +728,25 @@ gap: 10px;
 
 .contact-form-container {
   display: flex;
-  height: 100vh;
-  background-color: #1a1a1a;
+  margin-top: 50px;
+  gap: 50px;
+  height: 120vh;
+  background-color: #151515;
   color: #ffffff;
   padding: 50px;
 }
 
 .image-container {
   flex: 1;
+margin-top: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .image-container img {
-  max-width: 100%;
+width: 500px;
+height: 690px;
   border-radius: 20px;
 }
 
@@ -754,8 +759,12 @@ gap: 10px;
 }
 
 .form-container h1 {
-  font-size: 2.5em;
+  font-size: 55px;
+  margin-top: 30px;
+  font-weight: 500;
   margin-bottom: 20px;
+  line-height: 55px;
+  text-align: left;
 }
 
 .highlight {
@@ -763,26 +772,32 @@ gap: 10px;
 }
 
 .form-container p {
-  font-size: 1.2em;
+  font-size: 20px;
+  font-weight: 400;
+  width:90%;
+  color: #979595;
+  text-align: left;
   margin-bottom: 30px;
 }
 
 .form-group {
-  margin-bottom: 20px;
+padding-top: 30px;
+  margin-bottom:5px;
 }
 
 .form-group label {
+  font-size: 20px;
   display: block;
-  margin-bottom: 5px;
-  text-transform: uppercase;
+  margin-bottom: 2px;
+  text-align: left;
 }
 
 .form-group input, .form-group textarea {
   width: 100%;
   padding: 10px;
-  border: 1px solid #333;
-  border-radius: 5px;
-  background-color: #2a2a2a;
+border-bottom: 1px solid white;
+ 
+  background-color: #151515;
   color: #ffffff;
 }
 
@@ -790,17 +805,15 @@ gap: 10px;
   height: 100px;
 }
 
-button {
-  padding: 10px 20px;
-  border: 1px solid #00aaff;
-  border-radius: 5px;
+#submit {
+  padding: 5px 50px;
+  border: 1px solid white;
+  border-radius: 50px;
   background-color: transparent;
-  color: #00aaff;
+  color: white;
+  margin-top: 30px;
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
 }
 
-button:hover {
-  background-color: #00aaff;
-  color: #ffffff;
-}
+
